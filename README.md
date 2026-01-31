@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-mskfiltern/tags). For example,
+
+```javascript
 import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@v0.1.0-esm/index.mjs';
 ```
 
@@ -93,7 +98,7 @@ The function **always** returns new "generic" arrays.
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@v0.1.0-esm/index.mjs';
+import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@esm/index.mjs';
 
 // Generate linearly spaced arrays:
 var x = zeroTo( 20 );
