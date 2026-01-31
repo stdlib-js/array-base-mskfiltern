@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@esm/index.mjs';
+import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@v0.1.0-esm/index.mjs';
 ```
 
 #### mskfiltern( x, \[...arrays,] mask )
@@ -93,7 +93,7 @@ The function **always** returns new "generic" arrays.
 
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@esm/index.mjs';
+import mskfiltern from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-mskfiltern@v0.1.0-esm/index.mjs';
 
 // Generate linearly spaced arrays:
 var x = zeroTo( 20 );
